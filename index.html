@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chatbox</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/home.css">
+        <link rel="stylesheet" href="Css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        
+        <!-- chat bar -->
+        <div class="chatbox-wrapper">
+            <div class="chatbox-toggle">
+                <i class='bx bx-comment-dots'></i>
+            </div>
+            <div class="chatbox-message-wrapper">
+                <div class="chatbox-message-header">
+                    <div class="chatbox-message-profile">
+                        <img src="p1.jpg" alt="">
+                        <div>
+                            <h4 class="chatbox-message-name">Mohamed Traore</h4>
+                            <p class="chatbox-message-status">online</p>
+                        </div>
+                    </div>
+                    <div class="chatbox-message-dropdown">
+                        <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+                        <ul class="chatbox-message-dropdown-menu">
+                            <li>
+                                <a href="#">Search</a>
+                            </li>
+                            <li>
+                                <a href="#">Report</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="chatbox-message-content">
+                    <div class="chatbox-message-item sent">
+                       <span class="chatbox-message-item-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eligendi quae labore delectus minus voluptatem excepturi deserunt, hic cum ullam corporis eius aut aspernatur possimus, non molestiae, libero ipsa ratione?
+                       </span>
+                       <span class="chatbox-message-item-time">08:30</span>
+                    </div>
+                    <div class="chatbox-message-item received">
+                        <span class="chatbox-message-item-text">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eligendi quae labore delectus minus voluptatem excepturi deserunt, hic cum ullam corporis eius aut aspernatur possimus, non molestiae, libero ipsa ratione?
+                        </span>
+                        <span class="chatbox-message-item-time">08:30</span>
+                     </div>
+                </div>
+                <div class="chatbox-message-bottom">
+                    <form action="#" class="chatbox-message-form">
+                        <textarea rows="1" placeholder="Type your message....." class="chatbox-message-input">
+                            <button type="submit" class="chatbox-mesage-submit"><i class='bx bx-send'></i></button>
+                        </textarea>
+                    </form>
+                </div>
+            </div>
+            <div class="chatbox-message-content">
+                <div class="chatbox-message-item sent">
+                    <span class="chatbox-message-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda vitae quasi libero. Molestiae totam rerum nesciunt eos? Veniam nesciunt tempore dignissimos aliquam, suscipit in porro itaque sed praesentium beatae?
+                    </span>
+                    <span class="chabox-message-item-time">08:30</span>
+                </div>
+                <div class="chatbox-message-item received">
+                    <span class="chatbox-message-item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni assumenda vitae quasi libero. Molestiae totam rerum nesciunt eos? Veniam nesciunt tempore dignissimos aliquam, suscipit in porro itaque sed praesentium beatae?
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/responses.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

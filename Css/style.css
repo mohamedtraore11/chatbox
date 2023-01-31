@@ -1,0 +1,28 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+ :root{
+    --blue:#335DFF;
+    --grey:#F5F5F5;
+    --grey-d-1:#eee;
+    --grey-d-2:#ddd;
+    --grey-d-3:#888;
+    --white:#fff;
+    --dark:#222;
+ }
+ body{
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+ }
+ img,
+ picture {
+    max-width: 100%;
+    display: block;
+ }
+ input,
+ button,
+ textarea,
+ select {
+    font: inherit;
+ }
